@@ -60,6 +60,5 @@ module.exports = function toReadable (number) {
     
         newNum += newArr.filter(el => el != '').join(' ');
     }
-  
     return newNum;
 }
